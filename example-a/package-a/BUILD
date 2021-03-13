@@ -1,4 +1,4 @@
-load(":version.bzl", "get_name", "get_version")
+load("@rules_java//java:defs.bzl", "java_binary")
 
 java_binary(
     name = "runnerPackageA",

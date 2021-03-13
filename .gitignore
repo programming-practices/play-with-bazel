@@ -1,0 +1,16 @@
+### Bazel
+*~
+bazel-*
+.bazelrc
+
+### Intellij Idea
+.idea/
+*.iml
+
+### Eclipse
+.project
+.classpath
+.settings/
+
+### Maven
+target/

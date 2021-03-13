@@ -4,5 +4,5 @@ java_binary(
     name = "runnerPackageC",
     srcs = ["Runner.java"],
     main_class = "com.example.cmdline.Runner",
-#    deps = ["//:greeterPackageC"],
+    deps = ["//:greetingPackageC"],
 )

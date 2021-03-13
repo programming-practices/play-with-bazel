@@ -1,0 +1,14 @@
+load(":version.bzl", "get_version", "get_name")
+
+#java_binary(
+#    name = "runnerPackageC",
+#    srcs = ["src/main/java/com/example/cmdline/Runner.java"],
+#    main_class = "com.example.cmdline.Runner",
+#    deps = ["//:greeterPackageC"],
+#)
+
+java_library(
+    name = "greeterPackageC",
+    srcs = ["src/main/java/com/example/Greeting.java"],
+    visibility = ["//src/main/java/com/example/cmdline:__pkg__"],
+)

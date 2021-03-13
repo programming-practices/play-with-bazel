@@ -1,0 +1,7 @@
+load(":version.bzl", "get_name", "get_version")
+
+java_binary(
+    name = "runnerPackageA",
+    srcs = glob(["src/main/java/com/example/*.java"]),
+    main_class = "com.example.ProjectRunner",
+)
